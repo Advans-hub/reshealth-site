@@ -1,139 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ResHealth Consult | Your Total Health Partner</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        .brand-teal { background-color: #17a2b8; }
-        .brand-lime { background-color: #c5e0a1; }
-        .text-teal { color: #17a2b8; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ResHealth Consult | Your Total Health Partner</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+font-family:'Inter',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+.brand-teal{
+color:#0f766e;
+}
+
+.bg-brand{
+background:#0f766e;
+}
+
+.bg-brand-light{
+background:#e6f7f6;
+}
+
+</style>
+
 </head>
+
 <body class="bg-slate-50 text-gray-800">
 
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="flex items-center gap-2">
-                <div class="w-10 h-10 brand-teal rounded-br-2xl rounded-tl-2xl"></div>
-                <span class="font-bold text-xl tracking-tight text-gray-900">RESHEALTH CONSULT</span>
-            </div>
-            <nav class="hidden md:flex gap-8 font-medium">
-                <a href="#about" class="hover:text-teal">About</a>
-                <a href="#purpose" class="hover:text-teal">Purpose</a>
-                <a href="#services" class="hover:text-teal">Services</a>
-                <a href="#contact" class="hover:text-teal">Contact</a>
-            </nav>
-        </div>
-    </header>
+<!-- HEADER -->
 
-    <section id="about" class="py-16 md:py-24 bg-white">
-        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-            <div>
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Your Total Health Partner</h1>
-                <p class="text-lg text-gray-600 mb-8">Bringing over 30 years of cumulative experience from multinational pharmaceutical and diagnostics sectors to the African healthcare market.</p>
-                <div class="border-l-4 border-lime-400 pl-4 italic text-gray-500">
-                    "Inspired by the increasing political commitment and the need for Quality Assurance in Africa."
-                </div>
-            </div>
-            <div class="brand-lime p-8 rounded-2xl">
-                <h3 class="font-bold text-xl mb-4">Our Coverage</h3>
-                <p class="mb-4">Currently operating in <strong>Ghana, Nigeria, and French West Africa</strong> with a vision to expand across the continent.</p>
-                <ul class="space-y-2">
-                    <li class="flex items-center gap-2">✓ Stakeholder Access</li>
-                    <li class="flex items-center gap-2">✓ Market Understanding</li>
-                    <li class="flex items-center gap-2">✓ Compliant Business Focus</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<header class="bg-white shadow-sm sticky top-0 z-50">
 
-    <section id="purpose" class="py-16 brand-teal text-white">
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold mb-12">OUR PURPOSE</h2>
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm">
-                    <h3 class="font-bold text-xl mb-4 uppercase">Vision</h3>
-                    <p>Helping all people to live longer and healthy lives.</p>
-                </div>
-                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm">
-                    <h3 class="font-bold text-xl mb-4 uppercase">Mission</h3>
-                    <p>We work to build partnerships to deliver compliant excellent healthcare solutions.</p>
-                </div>
-                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm">
-                    <h3 class="font-bold text-xl mb-4 uppercase">Core Values</h3>
-                    <p>Patient-centric, Integrity, Excellence, and Passion.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-    <section id="services" class="py-16 bg-slate-50">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">WHAT WE DO</h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-teal-500">
-                    <h4 class="font-bold mb-3">Strategy & Growth</h4>
-                    <p class="text-sm text-gray-600">Developing strategies, systems, and skills to support business growth and improve margins.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-lime-500">
-                    <h4 class="font-bold mb-3">Operational Turnaround</h4>
-                    <p class="text-sm text-gray-600">Restructuring and reengineering poor laboratory and healthcare performers.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-teal-500">
-                    <h4 class="font-bold mb-3">Marketing & Sales</h4>
-                    <p class="text-sm text-gray-600">Enhancing productivity and designing healthcare promotion programs.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="flex items-center gap-3">
 
-    <section class="py-16 bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12">PRODUCTS & SERVICES</h2>
-            <div class="overflow-x-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead>
-                        <tr class="brand-lime text-gray-900">
-                            <th class="p-4 border">Category</th>
-                            <th class="p-4 border">Details</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="p-4 border font-bold">Consulting</td>
-                            <td class="p-4 border text-gray-600">Market Research, Road to Market analysis, Product development</td>
-                        </tr>
-                        <tr>
-                            <td class="p-4 border font-bold">Services</td>
-                            <td class="p-4 border text-gray-600">Marketing, Market Access, Policy shaping, Public Relations</td>
-                        </tr>
-                        <tr>
-                            <td class="p-4 border font-bold">Distribution</td>
-                            <td class="p-4 border text-gray-600">Sales of Products</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
+<img src="images/logo.png" class="h-10">
 
-    <footer id="contact" class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12">
-            <div>
-                <h3 class="text-2xl font-bold mb-6">Contact Us</h3>
-                <p class="mb-2"><strong>Location:</strong> Plot 247, Monticito Drive, Accra, GH</p>
-                <p class="mb-2"><strong>Email:</strong> info@reshealthconsult.com</p>
-                <p class="mb-6"><strong>Phone:</strong> 055-162-2333 | 055-162-2555</p>
-            </div>
-            <div class="flex flex-col justify-end items-end">
-                <p class="text-gray-400 text-sm">© 2024 ResHealth Consult. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+<span class="font-bold text-lg text-gray-900 hidden sm:block">
+RESHEALTH CONSULT
+</span>
+
+</div>
+
+<nav class="hidden md:flex gap-8 font-medium text-gray-700">
+
+<a href="#about" class="hover:text-teal-600">About</a>
+
+<a href="#purpose" class="hover:text-teal-600">Purpose</a>
+
+<a href="#services" class="hover:text-teal-600">Services</a>
+
+<a href="#contact" class="hover:text-teal-600">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="bg-gradient-to-r from-teal-700 to-cyan-700 text-white py-28">
+
+<div class="max-w-4xl mx-auto px-6 text-center">
+
+<img src="images/logo.png" class="mx-auto mb-10 h-24">
+
+<h1 class="text-4xl md:text-6xl font-bold mb-6">
+Your Total Health Partner
+</h1>
+
+<p class="text-lg md:text-xl opacity-90 mb-10">
+
+Delivering strategic healthcare consulting, diagnostics expertise, 
+and market access solutions across Africa.
+
+</p>
+
+<a href="#services"
+class="bg-white text-teal-700 font-semibold px-8 py-3 rounded-lg shadow hover:bg-gray-100 transition">
+
+Explore Our Services
+
+</a>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="py-24 bg-white">
+
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+
+<div>
+
+<h2 class="text-4xl font-bold mb-6">
+
+About ResHealth Consult
+
+</h2>
+
+<p class="text-gray-600 text-lg mb-6">
+
+ResHealth Consult brings over 30 years of cumulative experience from multinational pharmaceutical and diagnostics sectors to the African healthcare market.
+
+</p>
+
+<p class="text-gray-600">
+
+Our work is inspired by the growing political commitment toward healthcare transformation and the increasing demand for quality assurance across African healthcare systems.
+
+</p>
+
+</div>
+
+
+<div class="bg-brand-light p-10 rounded-2xl">
+
+<h3 class="font-bold text-xl mb-4">
+
+Our Coverage
+
+</h3>
+
+<p class="mb-6 text-gray-700">
+
+Currently operating in
+
+<strong>Ghana, Nigeria, and French West Africa</strong>
+
+with plans to expand across the continent.
+
+</p>
+
+<ul class="space-y-3 text-gray-700">
+
+<li>✔ Strong stakeholder access</li>
+
+<li>✔ Deep healthcare market understanding</li>
+
+<li>✔ Compliant and ethical business focus</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PURPOSE -->
+
+<section id="purpose" class="bg-brand text-white py-24">
+
+<div class="max-w-7xl mx-auto px-6 text-center">
+
+<h2 class="text-4xl font-bold mb-16">
+
+Our Purpose
+
+</h2>
+
+<div class="grid md:grid-cols-3 gap-10">
+
+
+<div class="bg-white/10 p-10 rounded-xl">
+
+<h3 class="font-bold text-xl mb-4 uppercase">
+
+Vision
+
+</h3>
+
+<p>
+
+Helping all people live longer and healthier lives.
+
+</p>
+
+</div>
+
+
+<div class="bg-white/10 p-10 rounded-xl">
+
+<h3 class="font-bold text-xl mb-4 uppercase">
+
+Mission
+
+</h3>
+
+<p>
+
+Building strong partnerships to deliver compliant and excellent healthcare solutions.
+
+</p>
+
+</div>
+
+
+<div class="bg-white/10 p-10 rounded-xl">
+
+<h3 class="font-bold text-xl mb-4 uppercase">
+
+Core Values
+
+</h3>
+
+<p>
+
+Patient-centric • Integrity • Excellence • Passion
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section id="services" class="py-24 bg-slate-50">
+
+<div class="max-w-7xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-16">
+
+What We Do
+
+</h2>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Strategy & Growth
+
+</h4>
+
+<p class="text-gray-600">
+
+Developing strategies, systems, and leadership capabilities that support sustainable healthcare business growth.
+
+</p>
+
+</div>
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Operational Turnaround
+
+</h4>
+
+<p class="text-gray-600">
+
+Restructuring and reengineering underperforming laboratories and healthcare organizations.
+
+</p>
+
+</div>
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Marketing & Sales
+
+</h4>
+
+<p class="text-gray-600">
+
+Designing promotion programs and improving productivity across healthcare and diagnostics markets.
+
+</p>
+
+</div>
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Market Research
+
+</h4>
+
+<p class="text-gray-600">
+
+Comprehensive market intelligence and road-to-market strategy for healthcare companies entering Africa.
+
+</p>
+
+</div>
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Public Relations
+
+</h4>
+
+<p class="text-gray-600">
+
+Healthcare communication strategies and stakeholder engagement.
+
+</p>
+
+</div>
+
+
+<div class="bg-white p-8 rounded-xl shadow hover:shadow-lg transition">
+
+<h4 class="font-bold text-lg mb-3">
+
+Distribution
+
+</h4>
+
+<p class="text-gray-600">
+
+Supporting the introduction and sales of healthcare products across key African markets.
+
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="bg-white py-24">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<h2 class="text-4xl font-bold text-center mb-16">
+
+Contact Us
+
+</h2>
+
+<div class="grid md:grid-cols-2 gap-12">
+
+<div>
+
+<p class="mb-4">
+
+<strong>Location:</strong><br>
+
+Plot 247, Monticito Drive<br>
+Accra, Ghana
+
+</p>
+
+<p class="mb-4">
+
+<strong>Email:</strong><br>
+
+info@reshealthconsult.com
+
+</p>
+
+<p>
+
+<strong>Phone:</strong><br>
+
+055-162-2333<br>
+055-162-2555
+
+</p>
+
+</div>
+
+
+<div class="flex items-center justify-center">
+
+<img src="images/logo.png" class="h-32 opacity-80">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="bg-gray-900 text-gray-400 py-10 text-center">
+
+<p>
+
+© 2026 ResHealth Consult. All rights reserved.
+
+</p>
+
+</footer>
+
 
 </body>
 </html>
